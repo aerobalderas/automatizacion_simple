@@ -12,7 +12,7 @@ COMPANY_TICKERS = {
     "meta": "META"
 }
 
-def obtener_precio_accion(user_input, company_name):
+def obtener_precio_accion(user_input):
     
     company_name = sanitizar(user_input)
     ticker = COMPANY_TICKERS.get(company_name)

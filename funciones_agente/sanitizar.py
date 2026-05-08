@@ -1,7 +1,7 @@
 def sanitizar(name):
 
     # Prefijos
-    prefixies = ["la", "el", "las", "los", "de", "precio de", "clima en", "clima de"]
+    prefixies = ["la", "el", "las", "los", "de", "precio de", "precio", "clima en", "clima de", "clima"]
 
     # Entrada en Minúsculas
     name = name.lower()
